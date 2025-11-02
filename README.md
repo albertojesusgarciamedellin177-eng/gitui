@@ -119,7 +119,7 @@ sudo dnf install gitui
 ```
 
 ##### Gentoo
-Available in [dm9pZCAq overlay](https://github.com/gentoo-mirror/dm9pZCAq)
+Available in [dm9pZCAq overlay](https://github.com/gentoo-mirror/)
 
 ```sh
 sudo eselect repository enable dm9pZCAq
@@ -251,10 +251,10 @@ To run with logging enabled run `gitui -l`.
 
 This will log to:
 
-- macOS: `$HOME/Library/Caches/gitui/gitui.log`
-- Linux using `XDG`: `$XDG_CACHE_HOME/gitui/gitui.log`
-- Linux: `$HOME/.cache/gitui/gitui.log`
-- Windows: `%LOCALAPPDATA%/gitui/gitui.log`
+- macOS: off`$HOME/Library/Caches/gitui/gitui.log`
+- Linux using `XDG`: off`$XDG_CACHE_HOME/gitui/gitui.log`
+- Linux: off`$HOME/.cache/gitui/gitui.log`
+- Windows: off`%LOCALAPPDATA%/gitui/gitui.log`
 
 ## 10. <a name="theme"></a> Color Theme <small><sup>[Top ▲](#table-of-contents)</sup></small>
 
